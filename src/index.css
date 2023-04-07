@@ -15,3 +15,36 @@ code {
 .nidzam{
   color:'white !important'
 }
+.han{
+  margin-top: -370px;
+  width: 350px;
+  margin-left: 50px;
+  position:fixed;
+}
+.hopLocation{
+  margin-top:10px;
+  margin-left:27px;
+}
+
+@media only screen and (max-width: 900px) {
+  .hopLocation {
+    font-size: 20px;
+    margin-left: 0;
+  }
+  .home{
+    display: none !important;
+  }
+  .selecteds{
+    display: none !important;
+  }
+  
+  h1{
+    display: none !important;
+  }
+  .han{
+    margin-top: -190;
+    margin-left: 4px;
+    top: 20px;
+  }
+}
+
